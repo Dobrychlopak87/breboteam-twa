@@ -1,0 +1,55 @@
+{
+  "packageName": "io.minimax.breboteam",
+  "host": "ogxhm8fvphgw.space.minimax.io",
+  "startUrl": "/",
+  "name": "BreboTeam",
+  "shortName": "BreboTeam",
+  "themeColor": "#3b82f6",
+  "backgroundColor": "#020617",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nowy wpis",
+      "shortName": "Wpis",
+      "description": "Dodaj nowy wpis czasu pracy",
+      "url": "/",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "generatorApp": "bubblewrap-cli v1.0",
+  "features": {
+    "playBilling": {
+      "enabled": false
+    },
+    "splashScreen": {
+      "enabled": true,
+      "backgroundColor": "#020617",
+      "image": "icon-192.png"
+    },
+    "deepLinks": {
+      "enabled": true,
+      "androidIdentifier": "io.minimax.breboteam",
+      "appLink": true,
+      "navColor": "#3b82f6",
+      "preferredPackage": null
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "androidManifestExtensions": {},
+  "additionalClassPaths": []
+}
